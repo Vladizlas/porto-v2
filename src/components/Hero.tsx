@@ -1,4 +1,4 @@
-import profileImage from "../image/foto.jpg";
+import profileImage from "../image/irfan.png";
 import Image from "next/image";
 
 export default function Hero() {
@@ -30,6 +30,18 @@ export default function Hero() {
         <div className="relative z-10 grid items-center gap-12 md:grid-cols-2">
 
           {/* Text */}
+          <div className="flex justify-center">
+            <Image
+              src={profileImage}
+              alt="Profile"
+              className="
+                h-64 w-64
+                rounded-xl
+                object-cover
+                md:h-95 md:w-60
+              "
+            />
+          </div>
           <div className="text-center md:text-left">
             <h1
               className="
@@ -96,30 +108,6 @@ export default function Hero() {
           </div>
 
           {/* Foto */}
-          <div className="flex justify-center md:justify-end">
-            <div
-              className="
-                rounded-2xl
-                border-2 border-[#7bd0ff]/60
-                p-2
-                shadow-[0_0_30px_rgba(123,208,255,0.15)]
-                transition duration-500
-                hover:border-[#7bd0ff]
-                hover:shadow-[0_0_40px_rgba(123,208,255,0.3)]
-              "
-            >
-              <Image
-                src={profileImage}
-                alt="Profile"
-                className="
-                  h-64 w-64
-                  rounded-xl
-                  object-cover
-                  md:h-60 md:w-50
-                "
-              />
-            </div>
-          </div>
 
         </div>
       </div>

@@ -1,6 +1,6 @@
 export default function Education() {
   return (
-    <div className="glass-panel mt-auto rounded-lg p-6">
+    <div className="min-h-614px justify-center px-15 py-16 w-full">
 
       <h2 className="
         mb-6 flex items-center gap-3

@@ -1,13 +1,13 @@
 const technologies = [
   ["💻", "Microsoft Office"],
-  ["📊", "Aplikasi Perbankan"],
+  ["📊", "Next.js"],
   ["☁️", "Google Workspace"],
   ["📱", "Digital Marketing"],
 ];
 
 export default function Skills() {
   return (
-    <section className="mx-auto max-w-1200px px-6 py-16">
+    <section className="min-h-614px justify-center px-15 py-16 w-[90%]]">
 
       <h2 className="mb-8 text-center text-3xl font-semibold">
         Skills

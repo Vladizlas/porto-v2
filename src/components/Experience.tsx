@@ -12,7 +12,7 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <div className="glass-panel rounded-lg p-6">
+    <div className="min-h-614px justify-center px-15 py-16 w-full">
 
       <h2 className="
         mb-8 flex items-center gap-3

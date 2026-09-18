@@ -24,8 +24,7 @@ export default function About() {
 
         <div className="
           flex flex-col
-          gap-6
-          lg:col-span-7
+          lg:col-span-7 w-screen justify-center items-center
         ">
           <Skills/>
           <Experience />

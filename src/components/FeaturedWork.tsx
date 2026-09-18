@@ -2,14 +2,15 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
-    title: "Mini-POS",
-    description:
-      "Mini-POS merupakan aplikasi kasir sederhana yang dirancang untuk membantu proses transaksi penjualan dan pengelolaan data toko secara terkomputerisasi. Aplikasi ini mencakup fitur pengelolaan produk, transaksi penjualan, stok barang, serta pencatatan dan monitoring data transaksi.",
+  title: "Mini-POS",
+  description:
+    "Mini-POS merupakan aplikasi kasir sederhana yang dirancang untuk membantu proses transaksi penjualan dan pengelolaan data toko secara terkomputerisasi. Aplikasi ini mencakup fitur pengelolaan produk, transaksi penjualan, stok barang, serta pencatatan dan monitoring data transaksi.",
+  githubUrl: "https://mini-pos-ochre-six.vercel.app/",
+  technologies: ["Next.js", "Tailwind.css", "GitHub"],
+  large: true,
+  accent: "blue" as const,
+},
 
-    technologies: ["Next.js", "Tailwind.css", "GitHub"],
-    large: true,
-    accent: "blue" as const,
-  },
   {
     title: "Administrasi Legal & KPR Developer Perumahan",
     description:
